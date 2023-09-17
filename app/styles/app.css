@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/fonts/HKGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HKGrotesk';
+  src: url('/fonts/HKGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 :root {
   --aside-width: 400px;
   --cart-aside-summary-height-with-discount: 300px;

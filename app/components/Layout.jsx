@@ -11,7 +11,7 @@ import {
 
 export function Layout({cart, children = null, footer, header, isLoggedIn}) {
   return (
-    <>
+    <div className="font-HKGrotesk">
       <CartAside cart={cart} />
       <SearchAside />
       <MobileMenuAside menu={header.menu} />
@@ -22,7 +22,7 @@ export function Layout({cart, children = null, footer, header, isLoggedIn}) {
           {(footer) => <Footer menu={footer.menu} />}
         </Await>
       </Suspense>
-    </>
+    </div>
   );
 }
 

@@ -15,7 +15,7 @@ import {
 import favicon from '../public/favicon.svg';
 import resetStyles from './styles/reset.css';
 import appStyles from './styles/app.css';
-import {Layout} from '~/components/Layout';
+import {Layout} from '~/components/layout';
 import tailwindCss from './styles/tailwind.css';
 
 // This is important to avoid re-fetching root queries on sub-navigations
