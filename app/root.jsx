@@ -104,7 +104,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="font-red">
         <Layout {...data}>
           <Outlet />
         </Layout>
