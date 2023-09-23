@@ -26,4 +26,5 @@ module.exports = {
     v2_routeConvention: true,
     v2_normalizeFormMethod: true,
   },
+  sourcemap: true,
 };

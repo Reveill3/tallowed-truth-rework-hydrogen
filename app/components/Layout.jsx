@@ -10,6 +10,7 @@ import {
 } from '~/components/Search';
 
 export function Layout({cart, children = null, footer, header, isLoggedIn}) {
+  console.log(footer);
   return (
     <div className="font-HKGrotesk">
       <CartAside cart={cart} />
